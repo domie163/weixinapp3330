@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/peisongyuan/list",
+    "pages/peisongyuan/add-or-update",
+    "pages/peisongyuan/detail",
+    "pages/kuaidixinxi/list",
+    "pages/kuaidixinxi/add-or-update",
+    "pages/kuaidixinxi/detail",
+    "pages/peisongkuaidi/list",
+    "pages/peisongkuaidi/add-or-update",
+    "pages/peisongkuaidi/detail",
+    "pages/peisongxinxi/list",
+    "pages/peisongxinxi/add-or-update",
+    "pages/peisongxinxi/detail",
+    "pages/peisongwancheng/list",
+    "pages/peisongwancheng/add-or-update",
+    "pages/peisongwancheng/detail",
+    "pages/querenwancheng/list",
+    "pages/querenwancheng/add-or-update",
+    "pages/querenwancheng/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微信小程序的快递管理平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#7BE2CD",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/kuaidixinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "快递信息"
+      },
+      {
+        "pagePath": "pages/peisongkuaidi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "配送快递"
+      },
+      {
+        "pagePath": "pages/peisongxinxi/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "配送信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

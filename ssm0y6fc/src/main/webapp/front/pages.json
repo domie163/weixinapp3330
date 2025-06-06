@@ -1,0 +1,261 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/peisongyuan/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongyuan/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongyuan/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/kuaidixinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/kuaidixinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/kuaidixinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/peisongkuaidi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongkuaidi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongkuaidi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/peisongxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/peisongwancheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongwancheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/peisongwancheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/querenwancheng/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/querenwancheng/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/querenwancheng/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#7BE2CD",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "微信小程序的快递管理平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#7BE2CD",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/kuaidixinxi/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "快递信息"
+			}
+			,{
+				"pagePath": "pages/peisongkuaidi/list",
+				"iconPath": "/static/tabs/icon2.png",
+				"selectedIconPath": "/static/tabs/icon2_act.png",
+				"text": "配送快递"
+			}
+			,{
+				"pagePath": "pages/peisongxinxi/list",
+				"iconPath": "/static/tabs/icon3.png",
+				"selectedIconPath": "/static/tabs/icon3_act.png",
+				"text": "配送信息"
+			}
+
+
+
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

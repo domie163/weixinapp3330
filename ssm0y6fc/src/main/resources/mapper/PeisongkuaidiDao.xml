@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.PeisongkuaidiDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.PeisongkuaidiEntity" id="peisongkuaidiMap">
+        <result property="kuaididanhao" column="kuaididanhao"/>
+        <result property="kuaidimingcheng" column="kuaidimingcheng"/>
+        <result property="tupian" column="tupian"/>
+        <result property="yonghuzhanghao" column="yonghuzhanghao"/>
+        <result property="yonghuxingming" column="yonghuxingming"/>
+        <result property="yonghushouji" column="yonghushouji"/>
+        <result property="kuaidiweizhi" column="kuaidiweizhi"/>
+        <result property="peisongleixing" column="peisongleixing"/>
+        <result property="zhidingweizhi" column="zhidingweizhi"/>
+        <result property="peisongfei" column="peisongfei"/>
+        <result property="fabushijian" column="fabushijian"/>
+        <result property="yaoqiushijian" column="yaoqiushijian"/>
+        <result property="yonghubeizhu" column="yonghubeizhu"/>
+        <result property="peisongzhuangtai" column="peisongzhuangtai"/>
+        <result property="crossuserid" column="crossuserid"/>
+        <result property="crossrefid" column="crossrefid"/>
+        <result property="userid" column="userid"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.PeisongkuaidiVO" >
+		SELECT * FROM peisongkuaidi  peisongkuaidi         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.PeisongkuaidiVO" >
+		SELECT  peisongkuaidi.* FROM peisongkuaidi  peisongkuaidi
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.PeisongkuaidiView" >
+
+		SELECT  peisongkuaidi.* FROM peisongkuaidi  peisongkuaidi 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.PeisongkuaidiView" >
+		SELECT * FROM peisongkuaidi  peisongkuaidi <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+
+	
+</mapper>
